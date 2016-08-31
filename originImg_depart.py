@@ -11,7 +11,6 @@ def depart(dirname):
                 if filecount % 2 != 0:
                         shutil.copy(abspath, origin_path + filename)
 
-
 if __name__ == "__main__":
         dirname = '/data/Subtitle/News_Caption/'
         origin_path = '/data/Subtitle/Origin_Img/'
