@@ -13,6 +13,6 @@ def depart(dirname):
 
 
 if __name__ == "__main__":
-        dirname = '/home/lizhichao/data/Subtitle/News_Caption/'
-        origin_path = '/home/lizhichao/data/Subtitle/Origin_Img/'
+        dirname = '/data/Subtitle/News_Caption/'
+        origin_path = '/data/Subtitle/Origin_Img/'
         depart(dirname)
