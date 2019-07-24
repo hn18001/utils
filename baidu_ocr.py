@@ -51,8 +51,8 @@ def get_image(filename):
 
 def get_ocr(filename):
     print filename
-    access_key = "1ac94851a21340cd9c7b1282855ec5ab"
-    secret_key = "982591c3b5d14151b6206723e1b2838e"
+    access_key = “”
+    secret_key = “”
     url = "http://word.bj.baidubce.com/api/v1/ocr/general"
     method = "POST"
     utc_time = datetime.datetime.utcnow()
